@@ -1,0 +1,42 @@
+#title {
+  
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 100%; 
+  box-sizing: border-box;
+}
+#title .wrap {
+  
+}
+#title .wrap hgroup {
+  
+  color: white; 
+}
+#title .wrap hgroup h2 {
+  
+  font-size: 16px;
+}
+#title .wrap hgroup h3 {
+  
+  font-size: 66px;
+  padding-top: 20px;
+  animation-name: titleT;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: reverse;
+  opacity: 1;
+
+}
+@keyframes titleT{
+  0%{
+    opacity: 0;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(50%);
+  }
+}
+
+

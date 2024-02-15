@@ -1,0 +1,128 @@
+footer {
+  
+  max-width: 1920px;
+  box-sizing: border-box;
+}
+footer .wrap {
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+footer .wrap h1 {
+  
+  font-size: 0;
+  width: 100px;
+  height: 90px;
+  background-image: url(../img/footerlogo.png);
+  background-repeat: no-repeat; 
+}
+footer .wrap h1 a {
+  
+}
+footer .wrap ul.fnb {
+  
+  gap: 20px;
+}
+footer .wrap ul.fnb li {
+  
+}
+footer .wrap ul.fnb li a {
+  
+  display: block;
+  line-height: 90px;
+}
+footer .wrap ul.fnb li:hover a {
+  color: #23afe3;
+}
+footer .wrap ul.sns {
+  
+  display: flex;
+  width: 40px;
+  height: 40px;
+  gap: 10px;
+  justify-content: center;
+  gap: 50px;
+}
+footer .wrap ul.sns li {
+  
+}
+footer .wrap ul.sns li a {
+  
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+footer .wrap ul.sns li a img{
+  
+  opacity: 0.2;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+}
+
+footer .wrap ul.sns li:hover a img{
+  opacity: 1;
+  
+}
+footer .wrap address {
+  
+  grid-column: 2;
+  grid-row: 2;
+  line-height: 1.5;
+  font-size: 14px;
+}
+footer p {
+  
+}
+footer .partner {
+  
+  grid-column: 2;
+  grid-row: 3;
+  position: relative;
+}
+footer .partner button {
+  
+  width: 240px;
+  height: 65px;
+  border-radius: 15px;
+  font-size: 18px;
+  position: absolute;
+  background-color: rgba(0,0,0,0.01);
+  right: 0;
+  margin-top: 50px;
+  font-weight: 800;
+  background-image: url(../img/arrowup1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain; 
+  text-align: left;
+  padding-left: 20px;
+}
+footer .partner button dl {
+  
+}
+footer .partner button dt {
+  
+}
+footer .partner button dd {
+  
+}
+footer p{
+  
+}
+footer p a {
+  position: fixed;
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+  border: 1px solid;
+  right: 30px;
+  bottom: 10px;
+  background-image: url(../img/arrowup.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+}

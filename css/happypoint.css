@@ -1,0 +1,68 @@
+section#happypoint {
+   
+  max-width: 1900px;
+  min-height: 900px;
+  box-sizing: border-box;
+}
+section#happypoint .wrap {
+  
+  display: grid;
+  grid-template-columns: 1fr 200PX;
+  grid-template-rows: auto auto;
+}
+section#happypoint .wrap h2 {
+  
+}
+section#happypoint .wrap p {
+  
+  font-size: 20px;
+  color: grey; 
+}
+section#happypoint .wrap h3 {
+  
+  grid-column: 2;
+  grid-row: 1;
+}
+section#happypoint .wrap h3 a {
+  
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 195px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 15px;
+}
+section#happypoint .list{
+  
+}
+section#happypoint .list ul {
+  
+  margin-top: 100px;
+  gap: 30px;
+}
+section#happypoint .list ul li {
+  
+}
+section#happypoint .list ul li img {
+  
+  border-radius: 10% 10% 0 0;
+}
+section#happypoint .list ul li h4 {
+  
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section#happypoint .list ul li h4 a {
+  
+}
+section#happypoint .list ul li p {
+  
+  text-align: center;
+}
+section#happypoint .list ul li p a {
+  
+}

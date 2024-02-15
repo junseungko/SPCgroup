@@ -1,0 +1,65 @@
+header {
+  
+  height: 88px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+header:hover {
+  
+  background-color: white;
+  height: 300px;
+  opacity: 1;
+}
+
+header .wrap {
+  
+}
+
+header .wrap h1 {
+  
+}
+header .wrap h1 a {
+  
+  transform: translateY(30px);
+  width: 150px;
+  height: 50px;
+  display: block;
+}
+header .wrap h1 a img {
+  
+}
+header .wrap ul {
+  
+}
+
+header .wrap ul li {
+  
+}
+header .wrap ul li:hover a {
+  color: black;
+  opacity: 1;
+}
+
+header .wrap ul li a {
+  
+  color: white;
+  padding: 30px 30px;
+  display: block;
+}
+
+
+header .wrap >a{
+  
+  background-image: url(../img/lang.svg);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  font-size: 0;
+  display: block;
+  transform: translateY(30px);
+  background-size: contain;
+}
+

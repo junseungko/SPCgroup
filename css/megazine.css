@@ -1,0 +1,51 @@
+section#megazine {
+  box-sizing: border-box;
+}
+section#megazine .wrap {
+  
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: auto auto;
+}
+section#megazine .wrap h2 {
+  
+}
+section#megazine .wrap p {
+  
+  font-size: 20px;
+  color: grey;
+}
+section#megazine .wrap h3 {
+  
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 195px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 15px;
+}
+section#megazine .list {
+  
+}
+section#megazine .list ul {
+  
+}
+
+
+section#megazine .list ul li {
+  
+}
+section#megazine .list ul li img {
+  
+  padding: 10px;
+  margin-top: 50px;
+}
+
+section#megazine .list ul li p {
+  
+}

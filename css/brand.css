@@ -1,0 +1,93 @@
+section#brand {
+  max-width: 1900px;
+  min-height: 900px;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+section#brand .wrap {
+  
+  display: grid; 
+  grid-template-columns: 30% 30% auto;
+  grid-template-rows: 1fr 1fr;
+}
+section#brand .wrap h2 {
+  
+}
+section#brand .wrap p {
+  
+  color: grey; 
+  font-size: 20px; 
+  grid-column: 1;
+}
+section#brand .wrap ul.menu {
+  
+  grid-column: 3;
+  grid-row: 1 / span 3; 
+  display: flex;
+}
+section#brand .wrap ul.menu li {
+  
+}
+
+section#brand .wrap ul.menu li a {
+  
+  padding: 0 60px;
+  width: 120px;
+  height: 60px;
+  display: block;
+  transform: translateX(-500px);
+  text-align: center; 
+}
+
+section#brand .wrap ul.menu li a img{
+  
+}
+
+section#brand .list {
+  
+  display: block;
+}
+section#brand .list ul{
+  gap: 20px;
+}
+section#brand .list ul li{
+
+}
+section#brand .list ul li a {
+  
+}
+section#brand .list ul li a img{
+  
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  color: #fff;
+  margin-top: 150px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+}
+section#brand h3 {
+ 
+  margin: 0 auto; 
+  width: 1450px;
+  height: 65px;
+  text-align: center;
+  margin-top: 250px;
+  display: block;
+  position: relative;
+}
+section#brand h3 a{
+ 
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50px;
+  width: 195px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 100px;
+  left: calc(((1450px - 195px) / 2));
+}
